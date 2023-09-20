@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Adriano</title>
+    <style>
+        /* Estilos para o design rústico da Era Medieval */
+        body {
+            background-color: #c7a080; /* Cor de fundo */
+            font-family: 'Times New Roman', serif; /* Fonte medieval */
+        }
+        .container {
+            text-align: center;
+            margin-top: 20%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #8b4513; /* Cor do botão */
+            color: #fff; /* Cor do texto no botão */
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="btnHello">Olá!</button>
+    </div>
+    
+    <script>
+        // Função para exibir a saudação personalizada
+        document.getElementById('btnHello').addEventListener('click', function() {
+            var nome = "Adriano Lima Rossi";
+            alert("Olá, seja bem-vindo, " + nome + "!");
+        });
+    </script>
+</body>
+</html>
